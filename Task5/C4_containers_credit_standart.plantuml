@@ -1,0 +1,35 @@
+@startuml C4_containers_credit_standart
+!include <c4/C4_Context.puml>
+!include <c4/C4_Container.puml>
+
+LAYOUT_WITH_LEGEND()
+title Контейнеры: Заявка на кредит онлайн
+
+Person(Клиент, "Клиент")
+
+System_Boundary(site_ibank, "Цифровые каналы") {
+  Container(Сайт_UI, "Сайт UI", "React.js", "Форма заявки")
+  Container(ИБ_UI, "Интернет-банк UI", "ASP.NET MVC", "Предодобренные предложения")
+  Container(Шлюз_API, "Шлюз кредитных заявок", "Java/Spring Boot", "Приём, валидация, маршрутизация")
+}
+
+System_Boundary(core, "Ядро банка") {
+  Container(Конвейер_Engine, "Кредитный конвейер", "Camunda BPM", "Оркестрация процессов")
+  Container(Скоринг_Service, "Скоринг", "Python/Flask", "REST API")
+  Container(АБС_UI, "АБС UI", "Delphi", "Рабочее место менеджера")
+  Container(АБС_DB, "АБС БД", "Oracle", "Хранение договоров")
+}
+
+Container(БКИ_API, "БКИ", "REST API", "Внешний сервис")
+Container(СМС_шлюз, "СМС-шлюз", "Внешний", "Уведомления")
+
+Клиент --> Сайт_UI
+Клиент --> ИБ_UI
+Сайт_UI --> Шлюз_API
+ИБ_UI --> Шлюз_API
+Шлюз_API --> Конвейер_Engine : POST /applications
+Конвейер_Engine --> Скоринг_Service : Вызов скоринга
+Скоринг_Service --> БКИ_API : Запрос КИ
+Шлюз_API --> СМС_шлюз : Уведомления
+Конвейер_Engine --> АБС_DB : Ежедневная синхронизация\n(или через адаптер)
+@enduml
