@@ -1,0 +1,25 @@
+@startuml C4_containers_stavki_standart
+!include <c4/C4_Context.puml>
+!include <c4/C4_Container.puml>
+
+LAYOUT_WITH_LEGEND()
+title Контейнеры: Передача ставок
+
+System_Boundary(core, "Ядро банка") {
+  Container(Сервис_заявок_App, "Сервис заявок (App)", "Java/Spring Boot", "Логика экспорта ставок")
+  Container(Сервис_заявок_DB, "Сервис заявок (DB)", "MS SQL / Oracle", "Хранение ставок")
+}
+
+Container(Кол_центр_UI, "UI кол-центра", "React.js", "Отображает ставки при звонке")
+Container(Кол_центр_API, "API кол-центра", "Spring Boot", "Вызывает GET /rates")
+
+Container(Партнёрский_кол_центр_UI, "UI партнёра", "Внешняя CRM", "Импортирует файл")
+
+Container(Exchange_Channel, "Канал обмена", "SFTP / Защищённый email", "Передача файла")
+
+Сервис_заявок_App --> Сервис_заявок_DB : Чтение ставок
+Сервис_заявок_App --> Кол_центр_API : REST API
+Сервис_заявок_App --> Exchange_Channel : Генерация и отправка файла
+Exchange_Channel --> Партнёрский_кол_центр_UI : Ручной/авто импорт
+Кол_центр_API --> Кол_центр_UI : Передача данных
+@enduml
