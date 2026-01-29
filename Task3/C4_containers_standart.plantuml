@@ -1,0 +1,44 @@
+@startuml C4_containers_standart
+!include <c4/C4_Context.puml>
+!include <c4/C4_Container.puml>
+
+LAYOUT_WITH_LEGEND()
+title Диаграмма контейнеров: Открытие депозитов онлайн (MVP)
+
+Person(Клиент, "Клиент")
+
+System_Boundary(site_boundary, "Сайт") {
+  Container(Сайт_UI, "UI", "React.js", "Отображает список депозитов,\nформа заявки")
+  Container(Сайт_API, "API", "PHP", "Принимает заявку,\nвызывает Сервис заявок")
+}
+
+System_Boundary(ibank_boundary, "Интернет-банк") {
+  Container(ИБ_UI, "UI", "ASP.NET MVC", "Отображает персонализированные ставки,\nформа заявки")
+  Container(ИБ_API, "API", ".NET Framework", "Принимает заявку,\nинтеграция с СМС и Сервисом заявок")
+}
+
+System_Boundary(core_boundary, "Ядро банка") {
+  Container(Сервис_заявок, "Сервис заявок на депозиты", "Java/Spring Boot", "Хранит заявки,\nставки, маршрутизирует события")
+  Container(АБС_UI, "АБС UI", "Delphi", "Рабочее место менеджера\nпо депозитам")
+  Container(АБС_DB, "АБС БД", "Oracle", "Хранение договоров,\nбалансов, заявок")
+}
+
+Container(Кол_центр, "Система кол-центра", "React + Spring Boot", "Приём звонков,\nработа с обращениями")
+Container(СМС_шлюз, "СМС-шлюз", "Внешний", "Отправка SMS")
+
+Клиент --> Сайт_UI
+Клиент --> ИБ_UI
+
+Сайт_UI --> Сайт_API
+Сайт_API --> Сервис_заявок : POST /deposits/applications
+
+ИБ_UI --> ИБ_API
+ИБ_API --> Сервис_заявок : POST /deposits/applications
+ИБ_API --> СМС_шлюз : Запрос кода подтверждения
+
+Сервис_заявок --> Кол_центр : POST /calls
+Сервис_заявок --> СМС_шлюз : POST /sms (статусы)
+Сервис_заявок --> АБС_DB : Ежедневный файл\nили REST-адаптер
+
+АБС_UI --> АБС_DB : Чтение/запись заявок
+@enduml

@@ -1,0 +1,189 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.3.6" pages="2">
+  <diagram id="1zcTAVt1k4KSup7FvAfL" name="Roadmap">
+    <mxGraphModel dx="9350" dy="6374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="3D7FDG2aXA9G618_Kong-0" />
+        <mxCell id="3D7FDG2aXA9G618_Kong-1" parent="3D7FDG2aXA9G618_Kong-0" />
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-12" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="350" width="1610" x="-880" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-2" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="350" width="1610" x="-2500" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-4" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="536.8" width="1610" x="-2500" y="-1146.8" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-5" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="Анализ и проектирование" vertex="1">
+          <mxGeometry height="50" width="390" x="-2480" y="-1120" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-6" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Разработка «Сервиса заявок на депозиты»&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="820" x="-2090" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-7" parent="3D7FDG2aXA9G618_Kong-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="Подготовка и MVP&amp;nbsp;&lt;div&gt;(0–3 мес)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="536.8" width="140" x="-2650" y="-1146.8" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-8" parent="3D7FDG2aXA9G618_Kong-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="Интеграция с кол-центрами (2–4 мес)" vertex="1">
+          <mxGeometry height="350" width="140" x="-2650" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-9" parent="3D7FDG2aXA9G618_Kong-1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q2" vertex="1">
+          <mxGeometry height="74.4" width="1610" x="-2500" y="-1240" as="geometry" />
+        </mxCell>
+        <mxCell id="wGroBH12Sy7-OgBsN0fJ-15" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="Реализация API ставок для внутреннего кол-центра" vertex="1">
+          <mxGeometry height="60" width="1180" x="-1280" y="-590" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-0" parent="3D7FDG2aXA9G618_Kong-1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q3" vertex="1">
+          <mxGeometry height="74.4" width="1610" x="-880" y="-1240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-1" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="536.8" width="1610" x="-880" y="-1146.8" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-2" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Интеграция сайта с Сервисом заявок&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="820" x="-2090" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-3" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Интеграция интернет-банка с Сервисом заявок&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="820" x="-2090" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-4" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Настройка СМС-уведомлений&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="-1280" y="-780" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-5" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Тестирование MVP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="-1280" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-6" parent="3D7FDG2aXA9G618_Kong-1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q3" vertex="1">
+          <mxGeometry height="74.4" width="1610" x="740" y="-1240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-7" parent="3D7FDG2aXA9G618_Kong-1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q3" vertex="1">
+          <mxGeometry height="74.4" width="1610" x="2360" y="-1240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-8" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="536.8" width="1610" x="740" y="-1146.8" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-9" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="536.8" width="1610" x="2360" y="-1146.8" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-10" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="Реализация экспорта файла ставок для партнёра" vertex="1">
+          <mxGeometry height="60" width="1180" x="-1280" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-13" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Настройка канала передачи (SFTP/email)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="-100" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-14" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Обучение кол-центров&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="-100" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-15" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="350" width="1610" x="740" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-16" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="350" width="1610" x="2360" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-17" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="280" width="1610" x="-880" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-18" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="280" width="1610" x="-2500" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-19" parent="3D7FDG2aXA9G618_Kong-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="Запуск MVP&amp;nbsp;&lt;div&gt;(1–2 мес)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="140" x="-2650" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-20" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="280" width="1610" x="740" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-21" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="280" width="1610" x="2360" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-22" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Пилотный запуск MVP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="360" y="-210" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-23" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Маркетинговая кампания&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="360" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-24" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Мониторинг и доработка&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="590" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-25" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="410" width="1610" x="-880" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-26" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="410" width="1610" x="-2500" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-27" parent="3D7FDG2aXA9G618_Kong-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="Полная автоматизация&lt;div&gt;(5-6 мес)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="410" width="140" x="-2650" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-28" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="410" width="1610" x="740" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-29" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="410" width="1610" x="2360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-30" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Автоматизация расчёта ставок в АБС&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1060" x="1040" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-31" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Интеграция Сервиса заявок с АБС через API&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="920" x="2100" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-32" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Устранение ручной обработки бэк-офисом&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="3010" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-33" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Финальное тестирование автоматизации&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="3470" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c91Hs1X7FpMdiqipwCgW-34" parent="3D7FDG2aXA9G618_Kong-1" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;rounded=0;" value="&lt;div style=&quot;&quot;&gt;Полный релиз автоматизированного открытия депозитов&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="450" x="3470" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6faDem5PxRRIMGQd80wj" name="Roadmap_change">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QlwB00z0-otb056kdUWZ-19" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="-530" width="1620" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-18" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="-730" width="1620" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-17" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="-930" width="1610" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-3" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="-1146.8" width="1610" height="196.8" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-4" value="T1 - API сервиса интеграции депозитов АБС" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2480" y="-1120" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-5" value="T2 - Передача файлов на SFTP-сервер" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2120" y="-1040" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-6" value="АБС&lt;div&gt;Сервис интеграции депозитов&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="-1146.8" width="120" height="196.8" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-7" value="SFTP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="-930" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-8" value="Q2" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="-1240" width="1610" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-11" value="T5 - Вывод ставок пользователю системы колл-центра" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1860" y="-640" width="940" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-12" value="T4 - Получение ставок через API интеграции АБС" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2060" y="-720" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-13" value="T6 - Получение файлов с SFTP для операторов партнера" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="-470" width="640" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-14" value="Система колл-центра" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="-730" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-15" value="Система&amp;nbsp; партнерского колл-центра" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="-530" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QlwB00z0-otb056kdUWZ-16" value="T3 - Развернуть SFTP сервер" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2400" y="-910" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
